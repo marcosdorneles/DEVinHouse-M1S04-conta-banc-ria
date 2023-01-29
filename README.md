@@ -22,4 +22,4 @@ O presente projeto utiliza HTML, CSS e JavaScript para desenvolver as funções 
 
 
 
-[Open in VSCode](vscode:https://github.com/marcosdorneles/DEVinHouse-M1S04-conta-banc-ria)
+<!-- [Open in VSCode](vscode:https://github.com/marcosdorneles/DEVinHouse-M1S04-conta-banc-ria) -->
