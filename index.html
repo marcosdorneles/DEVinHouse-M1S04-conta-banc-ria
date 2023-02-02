@@ -6,34 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banco</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
     
 </head>
 <body>
-    <header>
-        <div class="header-container">
-          <div class="logo-container">
-            <img src="logo.png" alt="Logo">
-            <h1 class="name">DEVinHouse Bank</h1>
-          </div>
-          <nav>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Depósitos</a></li>
-              <li><a href="#">Saques</a></li>
-              <li><a href="#">Consultar saldo</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      
-
-      <footer>
-        <div class="footer-container">
-          <div class="footer-left">
-            <p>Copyright ©2023 DEVinHouse Bank</p>
-          </div>
-        </div>
-      </footer>
-      
+  <header>
+    <div class="header-container">
+      <div class="logo-container">
+        <img src="logo.png" alt="Logo">
+        <h1 class="name">DEVinHouse Bank</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Depósitos</a></li>
+          <li><a href="#">Saques</a></li>
+          <li><a href="#">Consultar saldo</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <form>
+    <div>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" >
+    </div>
+    <div>
+      <label for="cpf">CPF:</label>
+      <input type="text" id="cpf" name="cpf" >
+    </div>
+    <div>
+      <label for="celular">Celular:</label>
+      <input type="tel" id="celular" name="celular" >
+    </div>
+    <div>
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" >
+    </div>
+    <div>
+      <label for="confirmacao">Confirmação da senha:</label>
+      <input type="password" id="confirmacao" name="confirmacao" >
+    </div>
+    <div>
+      <input type="button" value="Enviar formulário" onclick="getDataFromForm()">
+      <input type="reset" value="Limpar formulário">
+    </div>
+  </form>
+  
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">
+        <p>Copyright ©2023 DEVinHouse Bank</p>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
